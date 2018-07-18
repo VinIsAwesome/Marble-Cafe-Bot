@@ -1,7 +1,7 @@
 var discord = require('discord.js');
 var roblox = require('roblox-js');
 var client = new discord.Client();
-var token = "NDQwMjE2NzczNDU2MDM1ODYw.DcffSg.Q0FR6ts8jD"
+var token = "NDQwMjE2NzczNDU2MDM1ODYw.DjFBVg.SpZ56wwHwYs0aWnYytwBB3MbBms"
 client.login(token)
 
 roblox.login({username: "MarbleCafeBot", password: "Gopats12!"}).then((success) => {
